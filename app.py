@@ -57,7 +57,7 @@ def main():
 
 
     st.sidebar.write("## Suba o arquivo")
-    data_file_1 = st.sidebar.file_uploader("Bank marketing data", type=['csv','xlsx'])
+    data_file_1 = st.sidebar.file_uploader("Bank marketing data", type=['csv'])
     if (data_file_1 is not None):
         start = timeit.default_timer()
         bank_raw = load_data(data_file_1)
