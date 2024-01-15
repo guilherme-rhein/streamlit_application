@@ -38,18 +38,22 @@ def multiselect_filter(relatorio, col, selecionados):
 
 
 def main():
-    file_path_icon = r"C:\Users\Guilherme Rhein\Downloads\git\streamlit_application\telmarketing_icon.png"
+    file_path_icon = "https://raw.githubusercontent.com/guilherme-rhein/streamlit_application/main/telmarketing_icon.png"
     st.set_page_config(page_title = 'Telemarketing analisys', 
-        page_icon = Image.open(file_path_icon),
+        page_icon = file_path_icon,
         layout="wide",
         initial_sidebar_state='expanded'
     )
     st.write('# Telemarketing analisys')
     st.markdown("---")
     
-    file_path_bank = r"C:\Users\Guilherme Rhein\Downloads\git\streamlit_application\Bank-Branding.jpg"
-    image = Image.open(file_path_bank)
-    st.sidebar.image(image)
+    #file_path_bank = r"C:\Users\Guilherme Rhein\Downloads\git\streamlit_application\Bank-Branding.jpg"
+    #image = Image.open(file_path_bank)
+    #st.sidebar.image(image)
+
+    # URL da imagem
+    image_url = "https://raw.githubusercontent.com/guilherme-rhein/streamlit_application/main/Bank-Branding.jpg"
+    st.sidebar.image(image_url, caption='Bank Branding', use_column_width=True)
 
 
     st.sidebar.write("## Suba o arquivo")
