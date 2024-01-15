@@ -1,62 +1,51 @@
-# Título do projeto
+# Projeto de Análise de Dados Bancários
 
-Um simples resumo do uso/propósito do projeto.
+Bem-vindo ao projeto de análise de dados bancários! 
+O objetivo deste projeto é facilitar a utilização dos dados brutos recolhidos diretamente do sistema de um banco, para que a equipe responsável consiga filtar de maneira interativa, prática e rápida qualquer dado necessário. 
 
 ## Descrição do projeto
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+Este projeto foi desenvolvido com o objetivo de proporcionar uma análise robusta das informações contidas em um arquivo csv. Com este sistema, é possível selecionar diversas opções de filtros para cada variável presente nos dados, proporcionando uma análise personalizada e o download para extração de relatórios filtrados.
 
-## Utilização
+## Utilização e Funcionalidades Principais
+- **Upload dos Dados:** Arraste os dados salvos no formato CSV dentro do aplicativo em seu navegador, que serão abertas as opções de filtros e downloads.
 
-### Dependencias
+- **Análise de Dados:** O projeto permite uma análise detalhada dos dados bancários disponíveis, incluindo estatísticas descritivas e visualizações gráficas.
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+- **Filtros Personalizados:** É possível aplicar filtros específicos para cada variável, permitindo a seleção de dados com base em critérios personalizados.
 
-### Instalação
+- **Relatórios Personalizados:** Após a aplicação dos filtros desejados, o sistema gera relatórios personalizados, que podem ser facilmente baixados para análises futuras.
 
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+---
+## Experimente aqui:
+**Aplicativo:** [Clique aqui para acessar o aplicativo](https://telemarketing-service.onrender.com) <br>
+**Base de dados:** [Faça o download da base de dados para arrastar no aplicativo](https://github.com/guilherme-rhein/streamlit_application/blob/main/bank-additional.csv)
+
+---
+
+### Dependencias e Instalação
+
+**Caso seu objetivo seja realizar a importação para rodar o código local:**
+
+1. **Instalação:**                   
+   - Clone o repositório: `git clone https://github.com/guilherme-rhein/streamlit_application.git`
+   - Instale as dependências: `npm install` ou `pip install -r requirements.txt` 
+
+2. **Execução:**
+   - Execute o projeto: `python app.py`
+   - Utilize a base de dados `bank-additional.csv`
 
 ### Executando o projeto
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
+3. **Acesse o Sistema:**
+   - Abra utilizando `streamlit run app.py`
 
-## Ajuda
-
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
 
 ## Autores
 
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
-
-## Histórico de versões.
-
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
+ - Guilherme Rhein - [@GRhein](https://www.linkedin.com/in/guilherme-rhein/)
 
 ## Licença de uso
-
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
-
-## Fontes de inspiração
-
-Inspiração, trechos de códigos utilizados, etc.
-* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Para mais informações, [Guilherme Rhein]().
