@@ -23,7 +23,7 @@ Este projeto foi desenvolvido com o objetivo de proporcionar uma análise robust
 
 ---
 
-### Dependencias e Instalação
+### Dependências e Instalação
 
 **Caso seu objetivo seja realizar a importação para rodar o código local:**
 
